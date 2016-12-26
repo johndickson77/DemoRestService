@@ -52,7 +52,7 @@ public class CountryController {
 private List<Medicine> createMedicine(String code) {
 	
 	List<Medicine> medicines = new ArrayList<Medicine>();
-	
+	//Checking for code to choose medicines
 	if(code.equals("1")){
 		medicines.add(new Medicine("1","Paramcetomol"));
 		medicines.add(new Medicine("2","Citizine"));
@@ -61,7 +61,7 @@ private List<Medicine> createMedicine(String code) {
 		medicines.add(new Medicine("4","Ear Drops"));
 	}
 	return medicines;
-		// TODO Auto-generated method stub
+		
 		
 	}
 
